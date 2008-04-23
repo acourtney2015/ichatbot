@@ -4,36 +4,12 @@
 # Albot - MSN chat robot by Hui Chen <usa.chen [at] gmail.com>
 # Released under GPL v3
 #
-# Project homepage: 
+# Check out instructions and open tickets in project homepage: 
 #	http://code.google.com/p/ichatbot/
 #
-# Python libraries used: 
-#	1. Alberto Bertogli's msnlib
-#	2. Cort Stratton's PyAIML
-#
-# Prerequisite: 
-#	1. Python version >= 2.2.2 
-#	2. fortunes and fortune-zh, both are optional by removing the line 
-#		clist=[fortune, fortunezh]
-#	3. a Windows Live ID (for robot)
-#
-# Install:
-#	1. Check out latest SVN repository from project homepage
-#	2. Open chatbot.py, change chatbot MSN email, password, botname and admin_email
-#	3. Change your bot profile in chatbot.ini such as chatbot's name, 
-#	   master, birthplace etc 
-#	4. run ./chatbot.py and your robot is ready for chat on MSN 
-#
-# Sample robot:
-#	add albert@huichen.org to your friend list
-#
-# Questions?
-#	Go to project homepage and open a ticket
-#	
-# Note:
-#	MSN protocal may change a lot in future, please keep an eye on msnlib if 
-#	newer version is released. For updating msnlib, you only need to replace 
-#	msnlib.py and msncb.py files.
+# Thanks to: 
+#	1. Alberto Bertogli for msnlib
+#	2. Cort Stratton for PyAIML
 
 import sys
 import os
