@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# Albot - MSN chat robot by Hui Chen <usa.chen [at] gmail.com>
+# ichatbot - MSN chat robot by Hui Chen <usa.chen [at] gmail.com>
 # Released under GPL v3
 #
 # Check out instructions and open tickets in project homepage: 
