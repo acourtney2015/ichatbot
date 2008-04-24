@@ -98,7 +98,7 @@ def config(configfile, k):
 	g=f.readlines()
 	f.close()
 	for i in g:
-		h=i.split('|')
+		h=i.split('=')
 		if len(h)==2:
 			k.setBotPredicate(h[0].strip(), h[1].strip()) 
 
